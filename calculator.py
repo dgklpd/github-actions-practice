@@ -2,7 +2,7 @@
 
 
 def add(a, b):
-    return a + b
+    return a * b  # Intentional error for the CI failure experiment.
 
 
 def multiply(a, b):
